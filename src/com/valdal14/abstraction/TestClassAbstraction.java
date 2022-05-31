@@ -17,6 +17,7 @@ package com.valdal14.abstraction;
  *    Yes we can do it. However if we add a new abstract method
  *    to the BMW class we have to implement on the final child class
  * -> If we define a method inside a class as abstract also the class must be marked as abstract
+ * -> Inside an Abstract class we have a final method but it cannot be extended or inherited but still used
  */
 
 public class TestClassAbstraction {
@@ -31,5 +32,7 @@ public class TestClassAbstraction {
         s3.breakEngine(s3);
         // calling a concrete method directly from the abstract class
         BMW.BMWinfo();
+        // We can call a final method inside the abstract class but we cannot extend it or ihnerited
+        s3.finalMethodInsideAbstractClass();
     }
 }

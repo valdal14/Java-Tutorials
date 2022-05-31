@@ -17,4 +17,8 @@ public abstract class BMW {
     abstract void accelerate(SeriesThree model);
 
     abstract void breakEngine(SeriesThree model);
+
+    final void finalMethodInsideAbstractClass(){
+        System.out.println("This is a final method inside an abstract class");
+    }
 }
