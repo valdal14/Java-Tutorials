@@ -18,6 +18,16 @@ package com.valdal14.interfaces;
  *
  *
  */
+
+/**
+ * MARKER INTERFACE -------------------------------
+ *
+ * -> A Marker Interface is an interface without any methods
+ * -> IE: class MyClass implement Serializable
+ *      -> Clonable
+ *      -> RandomAccess (ArraList class implement the RandomAccess Marker Interface)
+ * -> if we implement the Serializable the object will be handled as a Stream
+ */
 public class TestClassInterfaces {
 
     public static void main(String[] args) {
