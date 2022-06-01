@@ -2,6 +2,7 @@ package com.valdal14.polymorphism.methodoverriding;
 
 public class MacBookAir extends MacBook{
 
+    public String runtimePolyVariable = "MacBook Air Child";
     public MacBookAir(String modelName) {
         super(modelName);
     }
