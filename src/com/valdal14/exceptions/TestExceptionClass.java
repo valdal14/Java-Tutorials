@@ -23,6 +23,7 @@ package com.valdal14.exceptions;
  *              - NoSuchMethodError
  *
  *      -> All the classes that inherit from Exception are called CHECKED Exceptions
+ *          -> CHECKED Exception must be handled it
  *      -> All the classes that inherit from RuntimeException are called UNCHECKED Exceptions
  *
  *      -> We can handle them with using the followings:
