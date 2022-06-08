@@ -1,8 +1,6 @@
 package com.valdal14.collections.comparableandcomparator.customcomparator;
 
-import java.util.Map;
 import java.util.Set;
-import java.util.TreeMap;
 import java.util.TreeSet;
 
 public class DemoCustomComparatorClass {
