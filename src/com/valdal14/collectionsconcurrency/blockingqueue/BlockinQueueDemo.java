@@ -20,6 +20,10 @@ public class BlockinQueueDemo {
 
         new Thread(consumer).start();
         new Thread(consumer).start();
+        new Thread(consumer).start();
+        // these two will be blocked since no more data to read
+        new Thread(consumer).start();
+        new Thread(consumer).start();
 
     }
 }
