@@ -4,6 +4,7 @@ package com.valdal14.abstraction;
  * -> Abstraction is used to hide the underlying
  *    implementation
  * -> We can use Abstract Classes
+ * -> Abstract class can have a constructor
  * -> An Abstract class (Partial abstraction)
  *    can contain concrete and abstract methods as well
  * -> An Abstract class cannot be instanciated
@@ -15,6 +16,8 @@ package com.valdal14.abstraction;
  * -> Can we extend an abstract class and market it as final?
  *    Yes we can do it. However if we add a new abstract method
  *    to the BMW class we have to implement on the final child class
+ * -> If we define a method inside a class as abstract also the class must be marked as abstract
+ * -> Inside an Abstract class we have a final method but it cannot be extended or inherited but still used
  */
 
 public class TestClassAbstraction {
@@ -29,5 +32,7 @@ public class TestClassAbstraction {
         s3.breakEngine(s3);
         // calling a concrete method directly from the abstract class
         BMW.BMWinfo();
+        // We can call a final method inside the abstract class but we cannot extend it or ihnerited
+        s3.finalMethodInsideAbstractClass();
     }
 }

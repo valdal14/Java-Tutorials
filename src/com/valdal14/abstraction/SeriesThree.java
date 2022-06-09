@@ -40,4 +40,10 @@ public final class SeriesThree extends BMW {
         System.out.printf("This model is %s and this is the break method \n", this.getModelName());
     }
 
+//    finalMethodInsideAbstractClass()' cannot override 'finalMethodInsideAbstractClass()' in 'com.valdal14.abstraction.BMW'; overridden method is final
+//    @Override
+//    public void finalMethodInsideAbstractClass(){
+//
+//    }
+
 }
